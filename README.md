@@ -25,6 +25,8 @@ Users should be able to:
 
 ### Screenshot
 
+screenshot.jpg
+
 ### Links
 
 - Solution URL: https://github.com/delia-cretu/single-price-grid-component-master
@@ -41,6 +43,14 @@ Users should be able to:
 
 ### What I learned
 
+- gained a better understanding of centering elements on a page using flexbox.
+- learned how to produce shadows on a box.
+
 ### Continued development
 
+I have more to learn about using CSS Flexbox and Grid layouts properly.
+
 ### Useful resources
+
+Great resource about centering elements using CSS Flexbox, Grid Position or Margin:
+https://www.freecodecamp.org/news/how-to-center-objects-using-css/
