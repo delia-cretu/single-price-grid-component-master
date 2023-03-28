@@ -9,6 +9,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 80px;
+  margin-bottom: 80px;
 }
 
 .grid {
@@ -163,7 +165,7 @@ span {
     display: flex;
     flex-direction: column;
 
-    margin: 80px auto;
+    margin: auto;
     height: 850px;
     width: 400px;
 
