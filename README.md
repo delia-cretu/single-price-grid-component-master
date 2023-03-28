@@ -12,7 +12,6 @@ This is a solution to the [Single price grid component challenge on Frontend Men
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 
 ## Overview
 
@@ -39,18 +38,11 @@ screenshot.jpg
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
 
 ### What I learned
 
 - gained a better understanding of centering elements on a page using flexbox.
-- learned how to produce shadows on a box.
 
 ### Continued development
 
-I have more to learn about using CSS Flexbox and Grid layouts properly.
-
-### Useful resources
-
-Great resource about centering elements using CSS Flexbox, Grid Position or Margin:
-https://www.freecodecamp.org/news/how-to-center-objects-using-css/
+I have more to learn about using CSS Flexbox in mobile-responsive layouts.
