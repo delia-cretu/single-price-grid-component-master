@@ -1,0 +1,170 @@
+body {
+  background-color: #e5eff5;
+}
+
+.grid {
+  display: grid;
+  height: 550px;
+  width: 700px;
+  margin: auto;
+
+  border-radius: 10px;
+  overflow: hidden;
+
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 250px, 300px;
+}
+.box1 {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 1;
+
+  background-color: white;
+  padding: 40px 40px 40px 40px;
+}
+.box2 {
+  grid-column-start: 1;
+  grid-column-end: 1;
+  grid-row-start: 2;
+  grid-row-end: 2;
+
+  background-color: #2ab2af;
+  padding: 40px 40px 40px 40px;
+}
+.box3 {
+  grid-column-start: 2;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 2;
+
+  background-color: #5bc4bf;
+  padding: 40px 40px 40px 40px;
+}
+
+#box1-title1 {
+  color: #2ab2af;
+  font-style: normal;
+  font-family: "Karla", sans-serif;
+  font-weight: 700;
+}
+#box1-title2 {
+  font-style: normal;
+  font-family: "Karla", sans-serif;
+  font-weight: 700;
+
+  font-size: 20px;
+  color: #c0df34;
+}
+#box1-text {
+  font-style: normal;
+  font-family: "Karla", sans-serif;
+  font-weight: 500;
+
+  font-size: 18px;
+  color: #98a6bd;
+}
+
+#box2-title {
+  font-style: normal;
+  font-family: "Karla", sans-serif;
+  font-weight: 700;
+
+  font-size: 20px;
+  color: white;
+}
+#box2-price {
+  font-style: normal;
+  font-family: "Karla", sans-serif;
+  font-weight: 700;
+
+  font-size: 30px;
+  color: white;
+}
+#box2-time {
+  font-style: normal;
+  font-family: "Karla", sans-serif;
+  font-weight: 400;
+
+  font-size: 18px;
+  color: white;
+  opacity: 0.8;
+}
+span {
+  vertical-align: middle;
+}
+#box2-text {
+  font-style: normal;
+  font-family: "Karla", sans-serif;
+  font-weight: 400;
+
+  font-size: 18px;
+  color: white;
+  opacity: 0.9;
+}
+
+#box3-title {
+  font-style: normal;
+  font-family: "Karla", sans-serif;
+  font-weight: 700;
+
+  font-size: 20px;
+  color: white;
+}
+#box3-text {
+  font-style: normal;
+  font-family: "Karla", sans-serif;
+  font-weight: 400;
+
+  font-size: 16px;
+  color: white;
+  opacity: 0.8;
+}
+
+.button {
+  font-style: normal;
+  font-family: "Karla", sans-serif;
+  font-weight: 700;
+
+  background-color: #c0df34;
+  border-color: #2ab2af;
+  width: 80%;
+  height: 50px;
+}
+
+@media screen and (max-width: 600px) {
+  .grid {
+    display: flex;
+    flex-direction: column;
+
+    margin: auto;
+    height: 1000px;
+    width: 400px;
+    padding: 80px 0;
+
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  .box1 {
+    height: 39%;
+    padding: 30px;
+  }
+  .box2 {
+    height: 29%;
+    padding: 30px;
+  }
+  .button {
+    width: 100%;
+  }
+  .box3 {
+    height: 32%;
+    padding: 30px;
+  }
+}
+
+.attribution {
+  position: fixed;
+  font-size: 12px;
+  right: 5px;
+  bottom: 5px;
+}
