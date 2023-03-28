@@ -62,9 +62,6 @@ body {
 
 /* Box 1 Formatting */
 
-.box1 {
-}
-
 #box1-title1 {
   font-weight: 700;
   color: #2ab2af;
@@ -152,17 +149,19 @@ span {
   }
   .box1 {
     height: 38%;
-    padding: 30px;
   }
   .box2 {
     height: 29%;
-    padding: 30px;
   }
   .button {
     width: 100%;
   }
   .box3 {
     height: 33%;
+  }
+  .box1,
+  .box2,
+  .box3 {
     padding: 30px;
   }
 }
