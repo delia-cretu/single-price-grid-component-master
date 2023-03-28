@@ -9,8 +9,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 80px;
-  margin-bottom: 80px;
 }
 
 .grid {
@@ -161,11 +159,13 @@ span {
 /* Media query for mobile responsive layout */
 
 @media screen and (max-width: 600px) {
+  .grid-wrapper {
+    margin: 150px auto;
+  }
   .grid {
     display: flex;
     flex-direction: column;
 
-    margin: auto;
     height: 850px;
     width: 400px;
 
@@ -192,8 +192,8 @@ span {
 /* Footer */
 
 .attribution {
-  position: fixed;
   font-size: 12px;
+  position: fixed;
   right: 5px;
   bottom: 5px;
 }
