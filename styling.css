@@ -21,6 +21,9 @@ body {
 
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 250px, 300px;
+
+  font-style: normal;
+  font-family: "Karla", sans-serif;
 }
 
 .box1 {
@@ -41,6 +44,8 @@ body {
 
   background-color: #2ab2af;
   padding: 40px 40px 40px 40px;
+
+  color: white;
 }
 
 .box3 {
@@ -51,31 +56,28 @@ body {
 
   background-color: #5bc4bf;
   padding: 40px 40px 40px 40px;
+
+  color: white;
 }
 
 /* Box 1 Formatting */
 
+.box1 {
+}
+
 #box1-title1 {
-  color: #2ab2af;
-  font-style: normal;
-  font-family: "Karla", sans-serif;
   font-weight: 700;
+  color: #2ab2af;
 }
 
 #box1-title2 {
-  font-style: normal;
-  font-family: "Karla", sans-serif;
   font-weight: 700;
-
   font-size: 1.25rem;
   color: #c0df34;
 }
 
 #box1-text {
-  font-style: normal;
-  font-family: "Karla", sans-serif;
   font-weight: 500;
-
   font-size: 1.125rem;
   color: #98a6bd;
 }
@@ -83,30 +85,18 @@ body {
 /* Box 2 Formatting */
 
 #box2-title {
-  font-style: normal;
-  font-family: "Karla", sans-serif;
   font-weight: 700;
-
   font-size: 1.25rem;
-  color: white;
 }
 
 #box2-price {
-  font-style: normal;
-  font-family: "Karla", sans-serif;
   font-weight: 700;
-
   font-size: 1.875rem;
-  color: white;
 }
 
 #box2-time {
-  font-style: normal;
-  font-family: "Karla", sans-serif;
   font-weight: 400;
-
   font-size: 1.125rem;
-  color: white;
   opacity: 0.8;
 }
 
@@ -115,41 +105,27 @@ span {
 }
 
 #box2-text {
-  font-style: normal;
-  font-family: "Karla", sans-serif;
   font-weight: 400;
-
   font-size: 1.125rem;
-  color: white;
   opacity: 0.9;
 }
 
 /* Box 3 Formatting */
 
 #box3-title {
-  font-style: normal;
-  font-family: "Karla", sans-serif;
   font-weight: 700;
-
   font-size: 1.25rem;
-  color: white;
 }
 
-#box3-text {
-  font-style: normal;
-  font-family: "Karla", sans-serif;
+#box3-text p {
   font-weight: 400;
-
   font-size: 1rem;
-  color: white;
   opacity: 0.8;
+  margin: 0;
 }
 
 .button {
-  font-style: normal;
-  font-family: "Karla", sans-serif;
   font-weight: 700;
-
   background-color: #c0df34;
   border-color: #2ab2af;
   width: 80%;
