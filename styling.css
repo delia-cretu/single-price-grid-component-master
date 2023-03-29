@@ -133,7 +133,7 @@ span {
 
 /* Media query for mobile responsive layout */
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
   .grid-wrapper {
     margin: 150px auto;
   }
